@@ -10,7 +10,6 @@ RUN apt-get update && \
         libxml2-dev \
         libverbiste-dev \
         verbiste \
-        cmake && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
