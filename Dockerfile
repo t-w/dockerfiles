@@ -9,7 +9,7 @@ RUN apt-get update && \
         libcppunit-dev \
         libxml2-dev \
         libverbiste-dev \
-        verbiste \
+        verbiste && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
